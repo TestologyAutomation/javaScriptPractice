@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM-Project</title>
+</head>
+<body>
+    
+    <h1 align ="center">ATM</h1>
+    </br></br>
+
+    current balance <input type="text" value="10000" id="cb" readonly>
+</br></br>
+withdraw amount <input type="text" id="wa" value="0">
+</br></br>
+<button onclick="doTransaction();">GET money</button>
+
+<label id="finalmsg">hey user..</label>
+
+<script>
+    function doTransaction()
+    {
+        let cAmount =parseInt(document.getElementById("cb").value);
+        console.log(cAmount);
+
+        let wAmount = parseInt(document.getElementById("wa").value);
+
+        if(wAmount>cAmount)
+        {
+            let msg = 'insufficient balance ';
+           document.getElementById("finalmsg").innerHTML = msg;
+
+        }
+        else{
+
+           let newCurBalance = cAmount- wAmount;
+           let msg = 'successful withdrawal, your new balance is ' +newCurBalance
+           document.getElementById("finalmsg").innerHTML = msg;
+           document.getElementById("cb").value = newCurBalance;
+           
+        }
+    }
+
+</script>
+
+</body>
+</html>

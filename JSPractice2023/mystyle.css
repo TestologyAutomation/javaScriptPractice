@@ -1,0 +1,15 @@
+body {
+    background-color: lightsalmon;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+
+  button{
+    background-color: lightgreen;
+    color: darkgreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  }

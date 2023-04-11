@@ -1,0 +1,16 @@
+.abc
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightblue;
+}
+.hdr
+{
+    color:yellow;
+}
+
+#mybutton
+{
+    width: 150px;
+    height: 50px;
+}
