@@ -1,0 +1,13 @@
+{
+  "name": "JSPractice2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01-commentsDemo.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
